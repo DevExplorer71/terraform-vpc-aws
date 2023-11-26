@@ -1,0 +1,1 @@
+global_network_name = "the-new-google"
