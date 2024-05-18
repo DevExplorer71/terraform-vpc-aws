@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("creds.json")
+  credentials = file("developer-project.json")
 
-  project = "default-development-405415"
+  project = "developer-project-414108"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
